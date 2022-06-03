@@ -15,7 +15,7 @@
 <body>
 
 <?php
-        $result = $mysql->query("select o.id,c.name as cname,e.name as ename,o.orderDate as ood,o.dueDate as odd,stage,qty,o.description as odes,cost from customers as c,stages as s,employees as e,orders as o where o.cid=c.id and o.sid=s.id and o.eid=e.id");
+        $result = $mysql->query("select o.id,c.name as cname,e.name as ename,o.orderDate as ood,o.dueDate as odd,stage,qty,o.description as odes,cost from customers as c,stages as s,employees as e,orders as o where o.cid=c.id and o.sid=s.id and o.eid=e.id order by s.id desc ");
 ?>
 
     <div class="title">
