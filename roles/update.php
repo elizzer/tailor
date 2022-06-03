@@ -28,6 +28,16 @@
     <title>Add Customer</title>
 </head>
 <body>
+<div class="title">
+        <h1 class="text-center">
+            <a href="../index.html" class="btn btn-primary m-1">
+                <h1>
+                Tailor Management
+                </h1>
+            </a>
+        </h1>
+        <hr>
+    </div>
     <div class="container" style="width:75%">
 
         <div >
