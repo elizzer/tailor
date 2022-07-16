@@ -26,6 +26,9 @@
         </h1>
         <hr>
     </div>
+    <div>
+        
+    </div>
     <div class="container text-center">
         <a href="new.php">
             <div class="btn">+ Add</div>
